@@ -12,17 +12,23 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          repository: Kdwkakcs/pwcd
+          token: ${{ secrets.privates }}
+          path: pwcd
         
-      - name: Make script executable
-        run: chmod +x run_bblot.sh
-        
-      - name: Run script
-        run: ./run_bblot.sh
+      - name: Collect Node
+        run: |
+          cd pwcd
+          chmod +x run_bblot.sh
+          bash run_bblot.sh
         
       - name: Commit and push changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          cd pwcd
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
           git add .
-          git commit -m "Auto update at $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
-          git push
+          git commit -m "Update at $(date +'%Y-%m-%d %H:%M:%S')" 
+          git push origin main
+        
