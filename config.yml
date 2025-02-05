@@ -1,0 +1,61 @@
+clash:
+  - https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml
+#   - https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml
+  - https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml
+  - https://raw.githubusercontent.com/thuhollow2/myconfig/main/config.yaml
+base:
+  - https://sub.sharecentre.online/sub
+  - https://sub.cm/YuwjbWN
+  - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num
+  - https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/v2ray.txt
+  - https://raw.githubusercontent.com/ts-sf/fly/main/v2
+  - https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/long
+  - https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/all.txt
+  - https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes
+  - https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Ray-list-current
+  - https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Config
+  - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
+  - https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mixbase64
+  - https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/vless
+  - https://raw.githubusercontent.com/thuhollow2/cn/main/config.yaml
+  - https://raw.githubusercontent.com/thuhollow2/myconfig/main/config.yaml
+  
+category:
+ - https://t.me/s/hkaa0
+ - https://t.me/s/ccbaohe
+ - https://t.me/s/masco899
+ - https://t.me/s/wxdy666
+ - https://t.me/s/nice16688
+ - https://t.me/s/airproxies
+ - https://t.me/s/kxswa
+ - https://t.me/s/helloworld_1024
+ - https://t.me/s/dingyue_Center
+ - https://t.me/s/xuanyizero
+ - https://t.me/s/wangcai_8
+ - https://t.me/s/jiedian_share
+ - https://t.me/s/dingyue_center
+ - https://t.me/s/zerobaipiao
+ - https://t.me/s/freeV2rayi
+ - https://t.me/s/aifenxiang2020
+ - https://t.me/s/ShareCentrePro
+ - https://t.me/s/mftizi
+ - https://t.me/s/jiuJieD
+ - https://t.me/s/hkaa0
+ - https://t.me/s/V2ray60
+ - https://t.me/s/FreeV2rays
+ - https://t.me/s/JiedianSsr
+ - https://t.me/s/jiedianF
+ - https://t.me/s/wxdy666
+ - https://t.me/s/Socks5_bott
+ - https://t.me/s/MFJD666
+ - https://t.me/s/freevpnjd
+ - https://t.me/s/xinjichangguancha
+ - https://t.me/s/v2ray_configs_pool
+
+url:
+ - http://d.zaix.ru/ntiL.txt
+ - https://raw.githubusercontent.com/thuhollow2/cn/main/result.log
+ - https://raw.githubusercontent.com/mermeroo/V2RAY-and-CLASH-Subscription-Links/refs/heads/main/SUB%20LINKS
+
+local:
+  - saved_urls.txt
