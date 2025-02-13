@@ -11,6 +11,7 @@ chmod +x ./singtools
 ./singtools drive update -c cred.json -l all_node.db.gz -n all_node.db.gz
 
 rm -rf all_node.db.gz
+rm cred.json
 git config --local user.name "GitHub Actions"
 git config --local user.email "actions@github.com"
 git add .
