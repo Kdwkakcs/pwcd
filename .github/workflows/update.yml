@@ -1,0 +1,30 @@
+name: Update
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时执行一次
+  workflow_dispatch:      # 支持手动触发
+    
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create cred
+        run: |
+          echo "${{ secrets.CRED_JSON }}" > cred.json
+        
+      - name: Collect Node
+        run: |
+          chmod +x run_bblot.sh
+          bash run_bblot.sh
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -rf cred.json
